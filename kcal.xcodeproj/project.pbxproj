@@ -16,6 +16,11 @@
 		61E55199265BCFC2006CD65E /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E55198265BCFC2006CD65E /* Nunito-Regular.ttf */; };
 		61E5519B265BCFD0006CD65E /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E5519A265BCFD0006CD65E /* Nunito-Bold.ttf */; };
 		61E5519E265BD080006CD65E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5519D265BD080006CD65E /* OnboardingView.swift */; };
+		61E551A1265BEF96006CD65E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E551A0265BEF96006CD65E /* HomeView.swift */; };
+		61E551A4265BF1B5006CD65E /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E551A3265BF1B5006CD65E /* HomePageView.swift */; };
+		61E551A6265BFB74006CD65E /* SearchPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E551A5265BFB74006CD65E /* SearchPageView.swift */; };
+		61E551A8265BFB83006CD65E /* FavoritePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E551A7265BFB83006CD65E /* FavoritePageView.swift */; };
+		61E551AA265BFB95006CD65E /* ProfileViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E551A9265BFB95006CD65E /* ProfileViewPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		61E55198265BCFC2006CD65E /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
 		61E5519A265BCFD0006CD65E /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
 		61E5519D265BD080006CD65E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		61E551A0265BEF96006CD65E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		61E551A3265BF1B5006CD65E /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		61E551A5265BFB74006CD65E /* SearchPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageView.swift; sourceTree = "<group>"; };
+		61E551A7265BFB83006CD65E /* FavoritePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePageView.swift; sourceTree = "<group>"; };
+		61E551A9265BFB95006CD65E /* ProfileViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +150,7 @@
 		61E55193265BCD7F006CD65E /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				61E5519F265BEF6A006CD65E /* Home */,
 				61E5519C265BD064006CD65E /* Onboarding */,
 				61E55194265BCD85006CD65E /* Splashscreen */,
 			);
@@ -169,6 +180,26 @@
 				61E5519D265BD080006CD65E /* OnboardingView.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		61E5519F265BEF6A006CD65E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				61E551A2265BF1A2006CD65E /* Pages */,
+				61E551A0265BEF96006CD65E /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		61E551A2265BF1A2006CD65E /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				61E551A3265BF1B5006CD65E /* HomePageView.swift */,
+				61E551A5265BFB74006CD65E /* SearchPageView.swift */,
+				61E551A7265BFB83006CD65E /* FavoritePageView.swift */,
+				61E551A9265BFB95006CD65E /* ProfileViewPage.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,7 +333,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E551A8265BFB83006CD65E /* FavoritePageView.swift in Sources */,
+				61E551AA265BFB95006CD65E /* ProfileViewPage.swift in Sources */,
+				61E551A4265BF1B5006CD65E /* HomePageView.swift in Sources */,
+				61E551A6265BFB74006CD65E /* SearchPageView.swift in Sources */,
 				61E5519E265BD080006CD65E /* OnboardingView.swift in Sources */,
+				61E551A1265BEF96006CD65E /* HomeView.swift in Sources */,
 				61E55161265BC882006CD65E /* SplashView.swift in Sources */,
 				61E5515F265BC882006CD65E /* kcalApp.swift in Sources */,
 			);

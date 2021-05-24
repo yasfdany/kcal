@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct OnboardingView: View {
-    @State var isActive:Bool = true
+    @State var isActive:Bool = false
     @State private var onboardingIndex = 0
+    
     let screenBound = UIScreen.main.bounds
     var onboardingTexts = [
         "Eat Healthy" : "Maintaining good health should be the primary focus of everyone.",
@@ -65,7 +66,7 @@ struct OnboardingView: View {
                   HStack {
                     Spacer()
                     Text("Get Started")
-                        .font(.custom("Nunito-Bold", size: 24))
+                        .font(.custom("Nunito-Bold", size: 18))
                         .foregroundColor(Color(.white))
                     Spacer()
                   }
@@ -92,7 +93,7 @@ struct OnboardingView: View {
                 SplashView()
             }
         }.onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 withAnimation {
                     self.isActive = true
                 }
