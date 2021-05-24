@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		61E5515F265BC882006CD65E /* kcalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5515E265BC882006CD65E /* kcalApp.swift */; };
-		61E55161265BC882006CD65E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E55160265BC882006CD65E /* ContentView.swift */; };
+		61E55161265BC882006CD65E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E55160265BC882006CD65E /* SplashView.swift */; };
 		61E55163265BC883006CD65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E55162265BC883006CD65E /* Assets.xcassets */; };
 		61E55166265BC883006CD65E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E55165265BC883006CD65E /* Preview Assets.xcassets */; };
 		61E55171265BC883006CD65E /* kcalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E55170265BC883006CD65E /* kcalTests.swift */; };
 		61E5517C265BC883006CD65E /* kcalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5517B265BC883006CD65E /* kcalUITests.swift */; };
+		61E55199265BCFC2006CD65E /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E55198265BCFC2006CD65E /* Nunito-Regular.ttf */; };
+		61E5519B265BCFD0006CD65E /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E5519A265BCFD0006CD65E /* Nunito-Bold.ttf */; };
+		61E5519E265BD080006CD65E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5519D265BD080006CD65E /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* Begin PBXFileReference section */
 		61E5515B265BC882006CD65E /* kcal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kcal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E5515E265BC882006CD65E /* kcalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kcalApp.swift; sourceTree = "<group>"; };
-		61E55160265BC882006CD65E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		61E55160265BC882006CD65E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		61E55162265BC883006CD65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61E55165265BC883006CD65E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		61E55167265BC883006CD65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		61E55177265BC883006CD65E /* kcalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kcalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E5517B265BC883006CD65E /* kcalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kcalUITests.swift; sourceTree = "<group>"; };
 		61E5517D265BC883006CD65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E55198265BCFC2006CD65E /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		61E5519A265BCFD0006CD65E /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		61E5519D265BD080006CD65E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,9 @@
 		61E5515D265BC882006CD65E /* kcal */ = {
 			isa = PBXGroup;
 			children = (
+				61E55197265BCF9E006CD65E /* Fonts */,
+				61E55193265BCD7F006CD65E /* UI */,
 				61E5515E265BC882006CD65E /* kcalApp.swift */,
-				61E55160265BC882006CD65E /* ContentView.swift */,
 				61E55162265BC883006CD65E /* Assets.xcassets */,
 				61E55167265BC883006CD65E /* Info.plist */,
 				61E55164265BC883006CD65E /* Preview Content */,
@@ -128,6 +135,40 @@
 				61E5517D265BC883006CD65E /* Info.plist */,
 			);
 			path = kcalUITests;
+			sourceTree = "<group>";
+		};
+		61E55193265BCD7F006CD65E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				61E5519C265BD064006CD65E /* Onboarding */,
+				61E55194265BCD85006CD65E /* Splashscreen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		61E55194265BCD85006CD65E /* Splashscreen */ = {
+			isa = PBXGroup;
+			children = (
+				61E55160265BC882006CD65E /* SplashView.swift */,
+			);
+			path = Splashscreen;
+			sourceTree = "<group>";
+		};
+		61E55197265BCF9E006CD65E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				61E5519A265BCFD0006CD65E /* Nunito-Bold.ttf */,
+				61E55198265BCFC2006CD65E /* Nunito-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		61E5519C265BD064006CD65E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				61E5519D265BD080006CD65E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +274,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E55199265BCFC2006CD65E /* Nunito-Regular.ttf in Resources */,
 				61E55166265BC883006CD65E /* Preview Assets.xcassets in Resources */,
+				61E5519B265BCFD0006CD65E /* Nunito-Bold.ttf in Resources */,
 				61E55163265BC883006CD65E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +302,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61E55161265BC882006CD65E /* ContentView.swift in Sources */,
+				61E5519E265BD080006CD65E /* OnboardingView.swift in Sources */,
+				61E55161265BC882006CD65E /* SplashView.swift in Sources */,
 				61E5515F265BC882006CD65E /* kcalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
