@@ -9,6 +9,12 @@ import SwiftUI
 
 struct SearchPageView: View {
     @State var searchText : String = ""
+    let trendings = [
+        "best vegetable recipes",
+        "cool season vegetables",
+        "chicken recipes with eggs",
+        "soups",
+    ]
     
     var body: some View {
         ScrollView {
@@ -23,7 +29,7 @@ struct SearchPageView: View {
                         .font(.custom("Nunito-Regular", size: 18))
                     Spacer()
                 }
-                .padding(24)
+                .padding(18)
                 .background(Color(.black).opacity(0.05))
                 .cornerRadius(12)
                 .padding()
@@ -40,6 +46,30 @@ struct SearchPageView: View {
                         ItemArticleView(image: "Letuce")
                     }
                 }
+                
+                Text("Trending")
+                    .font(.custom("Nunito-Bold", size: 22))
+                    .padding(.leading, 14)
+                    .padding(.top,14)
+                    .padding(.bottom,14)
+                
+                ForEach(trendings,id: \.self) {trend in
+                    VStack(alignment: .leading) {
+                        HStack(alignment: .center) {
+                            Text(trend)
+                                .font(.custom("Nunito-Regular", size: 18))
+                                .foregroundColor(Color("PaleOrange"))
+                            Image("Trend")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(height:8)
+                        }.padding(.top,14)
+                        Divider()
+                    }.onTapGesture {
+                        self.searchText = trend
+                    }
+                }
+                .padding(.leading,14)
             }
         }
     }
