@@ -171,5 +171,6 @@ struct HeadLineView : View {
 struct HomePage_Previews: PreviewProvider {
     static var previews: some View {
         HomePageView()
+            .previewDevice("iPhone 12")
     }
 }

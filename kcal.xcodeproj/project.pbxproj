@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2459BD3EE943441991074E1B /* Pods_kcalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88154DFF6AF331D4E3E4C784 /* Pods_kcalTests.framework */; };
 		4A2BE971475FCEBB13AE8E47 /* Pods_kcal_kcalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768BCA14689741EB0BCFBAD5 /* Pods_kcal_kcalUITests.framework */; };
+		611410E9265D2DAD00C0E3D5 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611410E8265D2DAD00C0E3D5 /* Recipe.swift */; };
 		61E5515F265BC882006CD65E /* kcalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5515E265BC882006CD65E /* kcalApp.swift */; };
 		61E55161265BC882006CD65E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E55160265BC882006CD65E /* SplashView.swift */; };
 		61E55163265BC883006CD65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E55162265BC883006CD65E /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		3FB305295869EEC0508AF7AF /* Pods-kcal-kcalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcal-kcalUITests.debug.xcconfig"; path = "Target Support Files/Pods-kcal-kcalUITests/Pods-kcal-kcalUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4698A617E9932FE284A654D5 /* Pods-kcal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcal.debug.xcconfig"; path = "Target Support Files/Pods-kcal/Pods-kcal.debug.xcconfig"; sourceTree = "<group>"; };
 		5AE243E22E6042730CC5E2B5 /* Pods_kcal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kcal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		611410E8265D2DAD00C0E3D5 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		61E5515B265BC882006CD65E /* kcal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kcal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E5515E265BC882006CD65E /* kcalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kcalApp.swift; sourceTree = "<group>"; };
 		61E55160265BC882006CD65E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		611410E6265D2D7700C0E3D5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				611410E7265D2D9500C0E3D5 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		611410E7265D2D9500C0E3D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				611410E8265D2DAD00C0E3D5 /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		61E55152265BC882006CD65E = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +146,7 @@
 		61E5515D265BC882006CD65E /* kcal */ = {
 			isa = PBXGroup;
 			children = (
+				611410E6265D2D7700C0E3D5 /* Data */,
 				61E55197265BCF9E006CD65E /* Fonts */,
 				61E55193265BCD7F006CD65E /* UI */,
 				61E5515E265BC882006CD65E /* kcalApp.swift */,
@@ -229,7 +248,6 @@
 				92166620C577EBED85EAC191 /* Pods-kcalTests.debug.xcconfig */,
 				29D2832918AA864614B40697 /* Pods-kcalTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -452,6 +470,7 @@
 				61E551A6265BFB74006CD65E /* SearchPageView.swift in Sources */,
 				61E5519E265BD080006CD65E /* OnboardingView.swift in Sources */,
 				61E551A1265BEF96006CD65E /* HomeView.swift in Sources */,
+				611410E9265D2DAD00C0E3D5 /* Recipe.swift in Sources */,
 				61E55161265BC882006CD65E /* SplashView.swift in Sources */,
 				61E5515F265BC882006CD65E /* kcalApp.swift in Sources */,
 			);
