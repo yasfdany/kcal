@@ -1,0 +1,6 @@
+framework module Pods_kcal_kcalUITests {
+  umbrella header "Pods-kcal-kcalUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

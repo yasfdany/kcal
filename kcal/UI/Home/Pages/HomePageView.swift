@@ -91,12 +91,12 @@ struct HomePageView: View {
                 
                 Spacer().frame(height : 24)
                 
-                ScrollView(.horizontal){
+                ScrollView(.horizontal,showsIndicators: false){
                     HStack(spacing: 18){
                         Spacer()
                         CategoryView(image: "Strawberry", name: "Fruits", color: Color("PaleOrange"))
                         CategoryView(image: "Broccolly", name: "Vegetables", color: Color("Primary"))
-                        CategoryView(image: "Snacks", name: "Pizza", color: Color("Yellow"))
+                        CategoryView(image: "Pizza", name: "Snacks", color: Color("Yellow"))
                     }
                 }
             }

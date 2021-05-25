@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2459BD3EE943441991074E1B /* Pods_kcalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88154DFF6AF331D4E3E4C784 /* Pods_kcalTests.framework */; };
+		4A2BE971475FCEBB13AE8E47 /* Pods_kcal_kcalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768BCA14689741EB0BCFBAD5 /* Pods_kcal_kcalUITests.framework */; };
 		61E5515F265BC882006CD65E /* kcalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E5515E265BC882006CD65E /* kcalApp.swift */; };
 		61E55161265BC882006CD65E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E55160265BC882006CD65E /* SplashView.swift */; };
 		61E55163265BC883006CD65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E55162265BC883006CD65E /* Assets.xcassets */; };
@@ -21,6 +23,7 @@
 		61E551A6265BFB74006CD65E /* SearchPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E551A5265BFB74006CD65E /* SearchPageView.swift */; };
 		61E551A8265BFB83006CD65E /* FavoritePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E551A7265BFB83006CD65E /* FavoritePageView.swift */; };
 		61E551AA265BFB95006CD65E /* ProfileViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E551A9265BFB95006CD65E /* ProfileViewPage.swift */; };
+		997FE5E54FFCE65304828557 /* Pods_kcal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE243E22E6042730CC5E2B5 /* Pods_kcal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29D2832918AA864614B40697 /* Pods-kcalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcalTests.release.xcconfig"; path = "Target Support Files/Pods-kcalTests/Pods-kcalTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FB305295869EEC0508AF7AF /* Pods-kcal-kcalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcal-kcalUITests.debug.xcconfig"; path = "Target Support Files/Pods-kcal-kcalUITests/Pods-kcal-kcalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4698A617E9932FE284A654D5 /* Pods-kcal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcal.debug.xcconfig"; path = "Target Support Files/Pods-kcal/Pods-kcal.debug.xcconfig"; sourceTree = "<group>"; };
+		5AE243E22E6042730CC5E2B5 /* Pods_kcal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kcal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E5515B265BC882006CD65E /* kcal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kcal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E5515E265BC882006CD65E /* kcalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kcalApp.swift; sourceTree = "<group>"; };
 		61E55160265BC882006CD65E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -61,6 +68,11 @@
 		61E551A5265BFB74006CD65E /* SearchPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageView.swift; sourceTree = "<group>"; };
 		61E551A7265BFB83006CD65E /* FavoritePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePageView.swift; sourceTree = "<group>"; };
 		61E551A9265BFB95006CD65E /* ProfileViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewPage.swift; sourceTree = "<group>"; };
+		7169007A1F371264396D9CBC /* Pods-kcal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcal.release.xcconfig"; path = "Target Support Files/Pods-kcal/Pods-kcal.release.xcconfig"; sourceTree = "<group>"; };
+		768BCA14689741EB0BCFBAD5 /* Pods_kcal_kcalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kcal_kcalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88154DFF6AF331D4E3E4C784 /* Pods_kcalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kcalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB2AD8F1CF3F31AF1F5032C /* Pods-kcal-kcalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcal-kcalUITests.release.xcconfig"; path = "Target Support Files/Pods-kcal-kcalUITests/Pods-kcal-kcalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92166620C577EBED85EAC191 /* Pods-kcalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcalTests.debug.xcconfig"; path = "Target Support Files/Pods-kcalTests/Pods-kcalTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				997FE5E54FFCE65304828557 /* Pods_kcal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2459BD3EE943441991074E1B /* Pods_kcalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2BE971475FCEBB13AE8E47 /* Pods_kcal_kcalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +110,8 @@
 				61E5516F265BC883006CD65E /* kcalTests */,
 				61E5517A265BC883006CD65E /* kcalUITests */,
 				61E5515C265BC882006CD65E /* Products */,
+				871934EA63D86CBE059190D3 /* Pods */,
+				B49A56C1A8C190FB217018FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,6 +219,30 @@
 			path = Pages;
 			sourceTree = "<group>";
 		};
+		871934EA63D86CBE059190D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4698A617E9932FE284A654D5 /* Pods-kcal.debug.xcconfig */,
+				7169007A1F371264396D9CBC /* Pods-kcal.release.xcconfig */,
+				3FB305295869EEC0508AF7AF /* Pods-kcal-kcalUITests.debug.xcconfig */,
+				8AB2AD8F1CF3F31AF1F5032C /* Pods-kcal-kcalUITests.release.xcconfig */,
+				92166620C577EBED85EAC191 /* Pods-kcalTests.debug.xcconfig */,
+				29D2832918AA864614B40697 /* Pods-kcalTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B49A56C1A8C190FB217018FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE243E22E6042730CC5E2B5 /* Pods_kcal.framework */,
+				768BCA14689741EB0BCFBAD5 /* Pods_kcal_kcalUITests.framework */,
+				88154DFF6AF331D4E3E4C784 /* Pods_kcalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -209,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61E55180265BC883006CD65E /* Build configuration list for PBXNativeTarget "kcal" */;
 			buildPhases = (
+				5F5245AE2A5D314F2714E855 /* [CP] Check Pods Manifest.lock */,
 				61E55157265BC882006CD65E /* Sources */,
 				61E55158265BC882006CD65E /* Frameworks */,
 				61E55159265BC882006CD65E /* Resources */,
@@ -226,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61E55183265BC883006CD65E /* Build configuration list for PBXNativeTarget "kcalTests" */;
 			buildPhases = (
+				5990AFC783C481553E72A5E6 /* [CP] Check Pods Manifest.lock */,
 				61E55168265BC883006CD65E /* Sources */,
 				61E55169265BC883006CD65E /* Frameworks */,
 				61E5516A265BC883006CD65E /* Resources */,
@@ -244,6 +287,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61E55186265BC883006CD65E /* Build configuration list for PBXNativeTarget "kcalUITests" */;
 			buildPhases = (
+				DF2026077C74A786390572DB /* [CP] Check Pods Manifest.lock */,
 				61E55173265BC883006CD65E /* Sources */,
 				61E55174265BC883006CD65E /* Frameworks */,
 				61E55175265BC883006CD65E /* Resources */,
@@ -327,6 +371,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5990AFC783C481553E72A5E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kcalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F5245AE2A5D314F2714E855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kcal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF2026077C74A786390572DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kcal-kcalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61E55157265BC882006CD65E /* Sources */ = {
@@ -494,6 +607,7 @@
 		};
 		61E55181265BC883006CD65E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4698A617E9932FE284A654D5 /* Pods-kcal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -515,6 +629,7 @@
 		};
 		61E55182265BC883006CD65E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7169007A1F371264396D9CBC /* Pods-kcal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -536,6 +651,7 @@
 		};
 		61E55184265BC883006CD65E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92166620C577EBED85EAC191 /* Pods-kcalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -557,6 +673,7 @@
 		};
 		61E55185265BC883006CD65E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D2832918AA864614B40697 /* Pods-kcalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -578,6 +695,7 @@
 		};
 		61E55187265BC883006CD65E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB305295869EEC0508AF7AF /* Pods-kcal-kcalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -597,6 +715,7 @@
 		};
 		61E55188265BC883006CD65E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB2AD8F1CF3F31AF1F5032C /* Pods-kcal-kcalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
